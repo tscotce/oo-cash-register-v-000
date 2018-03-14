@@ -32,7 +32,7 @@ class CashRegister
     end
   end
   
-  def items(item, price, quantity = 1)
+  def items
     @items = []
     @items.fill(item, @items.size, quantity)
   end
