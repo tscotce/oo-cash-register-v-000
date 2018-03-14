@@ -33,8 +33,7 @@ class CashRegister
   end
   
   def items
-    @items = []
-    @items.fill(item, @items.size, quantity)
+    @@items
   end
   
   def void_last_transaction
